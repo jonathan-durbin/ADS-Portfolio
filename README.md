@@ -1,9 +1,11 @@
 # Portfolio Milestone
 ## Syracuse University's Applied Data Science Master's Degree
 
+```
 Name: Jonathan Durbin
 Email: jdurbin@syr.edu
 SUID: 510804910
+```
 
 ## Table of Contents
 1. This `README.md` file.
