@@ -1,0 +1,97 @@
+---
+title: "IST 707 Final Project"
+author: "Jonathan Durbin"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output: 
+  ioslides_presentation:
+    theme: flatly
+    highlight: kate
+---
+
+<!--
+themes: flatly, lumen, paper, sandstone, simplex, spacelab, united
+highlight: tango, pygments, kate, monochrome, espresso, zenburn, haddock, breezedark, textmate
+Do not place code or output into your Assignment submission unless it is a *very* small portion, labeled as a Figure, and important for the section or subsection.
+
+All Assignments must be written in the third person (no use of I, you, we, us, etc) and must have at least the following headings and subheadings as described below. 
+
+REQUIRED HEADINGS AND SUBHEADINGS
+(Use as many visualizations as you can )
+
+# Introduction: (3 - 4 paragraphs)
+
+An Introduction is about the area or topic. What, why, who, value of analysis. Introductions can and should include basis, background, history, the state-of-the-art, images, references, etc. 
+
+
+# Analysis and Models
+## About the Data
+
+“About the Data” contains all the information about the dataset, the variables, cleaning and prep, checking for and dealing with missing values, checking for and dealing with incorrect values, checking for an dealing with outliers, feature generation, normalization (if needed), etc. In this subsection, you will also “explore” the data. Write about each variable, visualize each variable (as feasible), and talk about what the variable represents. Tables are great for this as well.
+
+## Models
+
+In some cases, there may only be one model. A model is any method used to analyze the data. Each Assignment specifies which models to use. Always include model details and parameter values when applicable.
+
+*** Include visualizations throughout the assignment.
+Include measures and comparisons.
+Tables are great for comparing. 
+
+# Results
+## (Results for n number of models)
+
+Results are technical. 
+
+They offer technical information about what was found in the analysis. For example, if you performed a correlation in the analysis between all pairs of numeric variables, then your results would discuss the r-value and relationship of each pair. Each model we will use in this class has results and parameters associated with it. 
+
+** Always have visualizations
+
+
+# Conclusions (3 paragraphs)
+
+This area explains what was actually found in a way that would make sense to anyone. In the Conclusions, you talk about what it all means. So you would not include mention of technical measures such as conf or sup. Rather, you would say that you found (as a random example) that people who buy diapers are also likely to buy beer and that this means that a store should consider placing these items “near” each other.
+-->
+
+<!-- 
+You don't need to edit the setup chunk unless you know what the various options with it mean.
+Feel free to add/remove packages from the load_packages chunk as you see fit.
+-->
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE, warning = FALSE, message = FALSE # Show output only, no warnings or messages 
+  , tidy=FALSE, tidy.opts=list(width.cutoff=80)  # Line wrapping
+  , out.width="75%", fig.align='center'  # For inserting images inline, to be used with the below chunk.
+  )
+```
+
+```{r load_packages, include=FALSE}
+library(knitr)     # Fancy formatting in code chunks such as line wrapping
+library(magrittr)  # Pipe operator %>%
+library(tidyverse)
+```
+
+
+# Introduction
+
+
+\newpage
+
+# Analysis and Models
+
+## About the Data
+
+## Models
+
+
+\newpage
+
+# Results
+
+## Model 1 (RENAME)
+
+## Model 2 (RENAME)
+
+
+\newpage
+
+# Conclusions
+

@@ -1,0 +1,5 @@
+- https://eightportions.com/datasets/Recipes/#fn:1
+    - recipes-raw.zip
+    - fn:  Foodnetwork.com
+    - epi: Epicurious.com
+    - ar:  Allrecipes.com
